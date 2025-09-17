@@ -1,0 +1,6 @@
+# data/validation/validation.yaml
+
+# path: /Users/vladimirmonastirsky/Downloads/tbank-detector 2/tbank-detector/data/validation
+train: /app/data/validation/images
+val: /app/data/validation/images
+names: ["tbank_logo"]

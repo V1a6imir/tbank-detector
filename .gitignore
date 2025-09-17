@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Jupyter/Colab ---
+.ipynb_checkpoints/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE configs ---
+.vscode/
+.idea/
+
+# --- Data caches ---
+*.cache
+*.tmp
+*.swp
+
+# --- Model weights ---
+*.pt
+*.onnx
+*.pth
+*.ckpt
+models/
+
+# --- Training/validation outputs ---
+runs/
+results/
+outputs/
+logs/
+
+# --- Validation artifacts ---
+*.json
+*.csv
+
+# --- Generated trees/reports ---
+tree.txt
